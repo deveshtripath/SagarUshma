@@ -3,4 +3,4 @@ django-cors-headers>=4.4
 python-dotenv>=1.0
 huggingface_hub>=0.24
 numpy
-torch
+gunicorn>=22.0
