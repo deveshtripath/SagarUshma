@@ -65,8 +65,7 @@ def _patch(values):
 # ASSUMPTION - these do NOT necessarily match the depths your model was
 # trained on. Replace with your training notebook's actual depth levels
 # (e.g. GLORYS standard depths) for numerically correct results.
-DEPTH_LEVELS = [0, 10, 20, 50, 100, 200, 500, 1000]
-
+DEPTH_LEVELS = [0, 5, 10, 20, 30, 50, 75, 100, 125, 150, 200, 300, 500, 700, 1000]
 
 def run(history, depths=None):
     """
